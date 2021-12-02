@@ -62,11 +62,11 @@ body {
 }
 @media  (max-width: 450px) {
     .text{
-        font-size: 1.5rem;
+        font-size: 1.8rem;
         width: 75%;
         margin-left: 20px;
     }
     #dynamic__text::after {
-        height: 1.5rem;
+        height: 1.8rem;
     }
 }

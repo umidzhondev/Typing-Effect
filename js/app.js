@@ -1,4 +1,4 @@
-this.addEventListener("load",() =>{
+
     let speed = 100;
     function set() {
         const dynamicText = document.querySelector("#dynamic__text");
@@ -32,8 +32,7 @@ this.addEventListener("load",() =>{
         }
     }
 
-    let time = (Array.from(document.querySelector("#dynamic__text").textContent).length + 2) * speed *2
+    let time = (Array.from(document.querySelector("#dynamic__text").getAttribute("data-content")).length + 2) * speed *2
 
 
     setInterval(set,time)
-})
